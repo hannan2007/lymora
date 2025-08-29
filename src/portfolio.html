@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lymora | Powered by Zain & Husnain</title>
+    <link rel="shortcut icon" href="/material/Favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5c880d7b71.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- work for hunger bar  -->
+    <nav class="nav_rs">
+        <div class="nav_rs_cnt">
+            <a class="navbar_links_home_h" href="">HOME</a>
+            <a class="navbar_links_Port_h" href="">PORTFOLIO</a>
+            <a class="navbar_links_Port_h" href="service.html">SERVICES </a>
+            <a class="navbar_links_cu_h" href="">CONTACT US</a>
+
+        </div>
+    </nav>
+
+
+    <!-- navbar starts from  here  -->
+    <div class="navbar_h">
+        <div class="navbar_h_maincnt">
+            <div class="navbar_logo_h">
+                <img src="/material/logo.png" alt="">
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+                </li>
+                <li class="navbar_links_ser_h" id="servicesLink">
+                    <a href="service.html">SERVICES &#9660;</a>
+                    <div class="services_sec_h" id="servicesDropdown">
+                        <div class="services_sec_h_ld" id="icon_s_1">
+                            <img src="/material/ICONS/programming.png" alt="Logo Designing">
+                            <p> WEB DEVELOPMENT</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/ai.png" alt="Logo Animation">
+                            <p>AI INTEGRATION</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/customer-service.png" alt="Presentation Design">
+                            <p>CHATBOT DEVELOPMENT</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/wordpress.png" alt="Website Development">
+                            <p>WORDPRESS DEVELOPMENT</p>
+                        </div>
+                        <div class="services_sec_h_ld" id="">
+                            <img src="/material/ICONS/logo-design.png" alt="Promotional Video">
+                            <p>LOGO <br> DESIGNING</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/computer.png" alt="Content Writing">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp; UIUX</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/virtual-assistant.png" alt="Product Packaging">
+                            <p>VIRTUAL ASSISTANT</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/delivery-truck.png" alt="Product Packaging">
+                            <p>&nbsp;AMAZON</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/ebay.png" alt="Product Packaging">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;EBAY</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/etsy.png" alt="Product Packaging">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;ETSY</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/web (1).png" alt="Product Packaging">
+                            <p>&nbsp;SHOPIFY</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/news.png" alt="Product Packaging">
+                            <p>STORY BOOK DESIGN</p>
+                        </div>
+                        <div class="services_sec_h_ld">
+                            <img src="/material/ICONS/anime.png" alt="Product Packaging">
+                            <p>2D ANIMATION</p>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT US</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <section class="hero" aria-labelledby="portfolio-heading">
+        <div class="container">
+            <h1 class="sec_heading1">PORTFOLIO</h1>
+            <h1 class="sec_heading2">Take A Look Around<span class="accent"> Our Portfolio</span></h1>
+        </div>
+    </section>
+    <div class="filter-buttons">
+        <button class="active" onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('logo')">Logo Design</button>
+        <button onclick="filterSelection('packaging')">Packaging Design</button>
+        <button onclick="filterSelection('video')">Video Animation</button>
+        <button onclick="filterSelection('website')">Website Development</button>
+        <button onclick="filterSelection('marketing')">Digital Marketing</button>
+        <button onclick="filterSelection('presentation')">Presentation Design</button>
+        <button onclick="filterSelection('promo')">Promotional Video</button>
+    </div>
+
+    <!-- Portfolio Items -->
+    <table>
+        <tbody>
+            <tr>
+                <td class="portfolio-item logo">
+                    <img src="wide-voices.jpg" alt="wide-voices">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="Capt-Digital.jpg" alt="Capt-Digital">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="Silver-leaf-legal-group-.jpg" alt="Silver-leaf-legal-group-">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item logo">
+                    <img src="Falcon-Paper-and-Plastics.jpg" alt="Falcon-Paper-and-Plastics">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="Adventure-auto-RV.jpg" alt="Adventure-auto-RV">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="Nicole-Ambrose-2.jpg" alt="Nicole-Ambrose-2">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item logo">
+                    <img src="UNKNOWN-REALTOR.jpg" alt="UNKNOWN-REALTOR">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="desh-capital.jpg" alt="desh-capital">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="switch.jpg" alt="switch">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item logo">
+                    <img src="33-bowling-solid-color-portfolio-2-1.jpg" alt="33-bowling-solid-color-portfolio-2-1">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="mobile-autoworks-portfolio-1.jpg" alt="mobile-autoworks-portfolio-1">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="optimanet-portfolio-1.jpg" alt="optimanet-portfolio-1">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item logo">
+                    <img src="37-rocket-medical-bolling-portfolio-1.jpg" alt="37-rocket-medical-bolling-portfolio-1">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="38-harmosa-thrives-portfolio-1.jpg" alt="38-harmosa-thrives-portfolio-1">
+                </td>
+                <td class="portfolio-item logo">
+                    <img src="style-solution-portfolio-1.jpg" alt="style-solution-portfolio-1">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td class="portfolio-item packaging">
+                    <img src="Frozen-Food.jpg" alt="Frozen-Food">
+                </td>
+                <td class="portfolio-item packaging">
+                    <img src="Fancy-bread.jpg" alt="Fancy-bread">
+                </td>
+                <td class="portfolio-item packaging">
+                    <img src="darling.jpg" alt="darling">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item packaging">
+                    <img src="Can-design.jpg" alt="Can-design">
+                </td>
+                <td class="portfolio-item packaging">
+                    <img src="Bottel-design.jpg" alt="Bottel-design">
+                </td>
+                <td class="portfolio-item packaging">
+                    <img src="Honey-bee.jpg" alt="Honey-bee">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item packaging">
+                    <img src="Amazon-product-label.jpg" alt="Amazon-product-label">
+                </td>
+                <td class="portfolio-item packaging">
+                    <img src="Potato-chips.jpg" alt="Potato-chips">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-1.jpg" alt="Animation-Portfolio-1">
+                </td>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-2.jpg" alt="Animation-Portfolio-2">
+                </td>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-3.jpg" alt="Animation-Portfolio-3">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-4.jpg" alt="Animation-Portfolio-4">
+                </td>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-6.jpg" alt="Animation-Portfolio-6">
+                </td>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-7.jpg" alt="Animation-Portfolio-7">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-8.jpg" alt="Animation-Portfolio-8">
+                </td>
+                <td class="portfolio-item video">
+                    <img src="Animation-Portfolio-9.jpg" alt="Animation-Portfolio-9">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td class="portfolio-item website">
+                    <img src="Ecox-Global.jpg" alt="Ecox-Global">
+                </td>
+                <td class="portfolio-item website">
+                    <img src="The-ladder.jpg" alt="The-ladder">
+                </td>
+                <td class="portfolio-item website">
+                    <img src="website-portfolio-image.jpg" alt="website-portfolio-image">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td class="portfolio-item marketing">
+                    <img src="Slide1.jpg" alt="Slide1">
+                </td>
+                <td class="portfolio-item marketing">
+                    <img src="Slide2.jpg" alt="Slide2">
+                </td>
+                <td class="portfolio-item marketing">
+                    <img src="Slide3.jpg" alt="Slide3">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td class="portfolio-item presentation">
+                    <img src="Turfcoach-Pitch-Deck-min.jpg" alt="Turfcoach-Pitch-Deck-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Sunrise-GOP-Company-Presentation-min.jpg" alt="Sunrise-GOP-Company-Presentation-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Purple-Cloud-Technologies-Deck-min.jpg" alt="Purple-Cloud-Technologies-Deck-min">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item presentation">
+                    <img src="Nogili-Investor-Deck-min.jpg" alt="Nogili-Investor-Deck-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="ggmartinez-Pitch-Deck-min.jpg" alt="ggmartinez-Pitch-Deck-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Bruehl-Product-Pitch-Deck-min.jpg" alt="Bruehl-Product-Pitch-Deck-min">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item presentation">
+                    <img src="Goodwill-min.jpg" alt="Goodwill-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Maverick-min.jpg" alt="Maverick-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="sunrise-min.jpg" alt="sunrise-min">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item presentation">
+                    <img src="Melodee-min.jpg" alt="Melodee-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Asthetic-next-min.jpg" alt="Asthetic-next-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Foluger-part-min.jpg" alt="Foluger-part-min">
+                </td>
+            </tr>
+            <tr>
+                <td class="portfolio-item presentation">
+                    <img src="Insait-min.jpg" alt="Insait-min">
+                </td>
+                <td class="portfolio-item presentation">
+                    <img src="Refit-Indonesia-Pitch-Deck-min.jpg" alt="Refit-Indonesia-Pitch-Deck-min">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   <!-- footer section starts here  -->
+    <footer>
+        <div class="footer-container">
+            <!-- About Us -->
+            <div class="footer-column">
+                <img src="/material/logo.png" alt="">
+                <h2>About Us</h2>
+                <p class="footer-column_p">We at lymora Solutions, focus on providing the best possible services to
+                    businesses, helping them establish or improve their presence through a professional makeover.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-upwork"></i></a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-column" id="footer-column_service">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Logo Design</a></li>
+                    <li><a href="#">Presentation Design</a></li>
+                    <li><a href="#">Promotional Video</a></li>
+                    <li><a href="#">Packaging Design</a></li>
+                    <li><a href="#">Video Animation</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Content Writing</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column" id="footer-column_quicklinks">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Free Consultation</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            © 2025 — lymora Solutions. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+<script src="home.js"></script>
+
+</html>

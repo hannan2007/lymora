@@ -239,3 +239,19 @@ document.querySelectorAll('.nav-link').forEach(link => {
         hamburger.querySelector('i').classList.add('fa-bars');
     });
 });
+
+function filterSelection(category) {
+      let items = document.querySelectorAll('.portfolio-item');
+      let buttons = document.querySelectorAll('.filter-buttons button');
+
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    }
